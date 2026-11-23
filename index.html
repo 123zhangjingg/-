@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#100f20">
+  <meta name="robots" content="noindex, nofollow">
+  <title>赠你一捧玫瑰</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./main.js"></script>
+</head>
+<body data-scene="opening">
+  <div class="night" aria-hidden="true"></div>
+  <div id="effects" aria-hidden="true"></div>
+  <header class="masthead">
+    <div class="wordmark"><img src="./assets/mark.svg" alt="" width="29" height="29"><span>ROSE &amp; STARDUST</span></div>
+    <div class="dedication"><span data-copy="dedication"></span><i></i><span data-copy="from"></span></div>
+  </header>
+  <main id="experience">
+    <section id="opening" class="scene scene-grid" aria-labelledby="opening-title">
+      <div class="copy opening-copy">
+        <p class="eyebrow"><span></span>一份专属礼物</p>
+        <h1 id="opening-title" tabindex="-1"><span data-copy="openingName"></span><em>想送你一份<br class="desktop-break">特别的小礼物。</em></h1>
+        <p class="intro">把一束粉色玫瑰，藏在今晚的星光里。</p>
+        <button id="open" class="button primary" type="button">打开礼物 <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="art gift-art" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="gift-glow"></div><div class="gift-shadow"></div>
+        <svg class="gift" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="left" x1="118" y1="278" x2="271" y2="374" gradientUnits="userSpaceOnUse"><stop stop-color="#64516d"/><stop offset=".55" stop-color="#372b48"/><stop offset="1" stop-color="#2d2239"/></linearGradient>
+            <linearGradient id="right" x1="252" y1="290" x2="388" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#46344f"/><stop offset="1" stop-color="#211d37"/></linearGradient>
+            <linearGradient id="top" x1="133" y1="221" x2="360" y2="271" gradientUnits="userSpaceOnUse"><stop stop-color="#89708c"/><stop offset=".56" stop-color="#594461"/><stop offset="1" stop-color="#302943"/></linearGradient>
+            <linearGradient id="silk" x1="146" y1="178" x2="337" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#765547"/><stop offset=".28" stop-color="#f8d8ac"/><stop offset=".48" stop-color="#b48565"/><stop offset=".7" stop-color="#e5bb95"/><stop offset="1" stop-color="#9f6c54"/></linearGradient>
+            <radialGradient id="inner"><stop stop-color="#fff3d9"/><stop offset=".35" stop-color="#efa493"/><stop offset="1" stop-color="#522d52"/></radialGradient>
+            <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0H1M2 2H3" stroke="#fff" stroke-opacity=".13" stroke-width=".6"/></pattern>
+          </defs>
+          <path d="M116 249 251 210 383 248 250 301Z" fill="url(#inner)" stroke="#e4b698" stroke-opacity=".7"/>
+          <path d="M116 249 250 296 250 408 119 350Z" fill="url(#left)" stroke="#b4888e" stroke-opacity=".55"/>
+          <path d="M250 296 383 248 380 351 250 408Z" fill="url(#right)" stroke="#b4888e" stroke-opacity=".4"/>
+          <path d="M116 249 250 296 383 248 380 351 250 408 119 350Z" fill="url(#grain)"/>
+          <path d="M171 269 194 277 196 384 174 374Z M309 274 334 265 332 372 308 384Z" fill="url(#silk)" stroke="#e7c29b" stroke-opacity=".4"/>
+          <path d="M125 333 244 385 M257 386 375 334" stroke="#bea196" stroke-opacity=".34" stroke-width=".8"/>
+          <g class="lid">
+            <path d="M106 242 250 190 394 239 250 292Z" fill="url(#top)" stroke="#d4ac9f" stroke-opacity=".75"/>
+            <path d="M106 242 250 292 394 239 393 264 250 320 107 267Z" fill="url(#left)" stroke="#d4ac9f" stroke-opacity=".63"/>
+            <path d="M250 292 394 239 393 264 250 320Z" fill="url(#right)"/>
+            <path d="M106 242 250 190 394 239 393 264 250 320 107 267Z" fill="url(#grain)"/>
+            <path d="M159 222 183 214 335 260 335 286 309 297 309 270Z M310 210 334 218 192 272 192 298 168 288 168 263Z" fill="url(#silk)" stroke="#f2cc9d" stroke-opacity=".42"/>
+            <path d="M241 236C216 231 177 219 178 206C180 191 225 202 250 228C270 197 313 187 323 204C330 218 290 232 256 238" stroke="#624233" stroke-width="19" stroke-linecap="round"/>
+            <path d="M244 234C213 230 177 216 180 204C184 189 228 204 250 228C273 198 310 190 320 202C330 215 291 230 255 235" stroke="url(#silk)" stroke-width="13" stroke-linecap="round"/>
+            <path d="M248 231C219 192 195 176 173 186C146 199 174 230 228 235C214 242 200 257 188 271L208 268L208 281C228 266 241 247 253 238C270 246 293 265 320 264L309 252L326 247C290 250 283 228 266 226C286 213 314 181 303 173C291 163 265 184 248 231Z" fill="url(#silk)" stroke="#f1c99d" stroke-opacity=".7"/>
+            <path d="M241 226C213 199 181 184 172 196C164 207 204 231 241 232 M259 226C276 198 300 174 300 181C297 195 274 218 260 229" stroke="#694638" stroke-opacity=".65" stroke-width="2.2"/>
+            <path d="M240 231Q250 224 262 231L261 240Q252 246 241 240Z" fill="#efc7a1" stroke="#9f7058"/>
+          </g>
+        </svg>
+        <span class="spark spark-a">✦</span><span class="spark spark-b">✧</span><span class="spark spark-c">✦</span>
+      </div>
+    </section>
+    <section id="flower" class="scene scene-grid" aria-labelledby="flower-title" inert aria-hidden="true">
+      <div class="copy flower-copy">
+        <p class="eyebrow"><span></span>一束粉色玫瑰</p>
+        <h1 id="flower-title" tabindex="-1"><span data-copy="flowerTitle"></span><em>为你盛开。</em></h1>
+        <p class="intro">轻触玫瑰，让一点喜欢散成星光。</p>
+        <button id="read" class="button primary" type="button">读一封信 <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="art flower-art">
+        <div class="orbit orbit-a" aria-hidden="true"></div><div class="orbit orbit-b" aria-hidden="true"></div>
+        <div class="flower-glow" aria-hidden="true"></div>
+        <img id="fallback-rose" src="./assets/rose.svg" alt="" aria-hidden="true">
+        <canvas id="world" aria-hidden="true"></canvas>
+        <button id="touch-rose" type="button" aria-label="轻触玫瑰，放飞爱心"></button>
+        <div class="art-note">✧ <span>轻触花朵</span> ✧</div>
+      </div>
+    </section>
+    <section id="letter" class="scene letter-scene" aria-labelledby="letter-title" inert aria-hidden="true">
+      <div class="letter-wrap">
+        <article class="paper">
+          <header class="paper-head">
+            <img src="./assets/mark.svg" alt="" width="42" height="42">
+            <h1 id="letter-title" tabindex="-1">写给<span data-copy="recipientName"></span>的一封信</h1>
+            <button id="skip" class="text-button" type="button">显示全文</button>
+          </header>
+          <div id="letter-body"></div>
+          <p id="closing" hidden></p>
+          <div class="letter-actions">
+            <button id="reread" class="button outline" type="button">重新阅读信件</button>
+            <button id="replay" class="button primary" type="button">重新播放 <span aria-hidden="true">↺</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><span>一束花，一点心意</span><span>✦</span><span data-copy="signature"></span></footer>
+  <noscript>请在浏览器中启用 JavaScript，打开这份礼物。</noscript>
+</body>
+</html>
+

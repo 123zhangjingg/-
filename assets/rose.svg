@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+ <defs>
+  <radialGradient id="petal" cx=".62" cy=".17" r=".82"><stop stop-color="#ffd2db"/><stop offset=".43" stop-color="#d886a4"/><stop offset="1" stop-color="#742c51"/></radialGradient>
+  <linearGradient id="leaf"><stop stop-color="#596558"/><stop offset="1" stop-color="#9da78a"/></linearGradient>
+  <path id="p" d="M-10 18C-31-3-102-39-80-80C-59-119 48-120 79-78C102-47 29 0 13 20Q0 26-10 18Z" fill="url(#petal)" stroke="#fac3d4" stroke-opacity=".45"/>
+  <g id="rose">
+   <use href="#p" transform="rotate(0)"/><use href="#p" transform="rotate(63)"/><use href="#p" transform="rotate(125)"/><use href="#p" transform="rotate(185)"/><use href="#p" transform="rotate(249)"/><use href="#p" transform="rotate(308)"/>
+   <use href="#p" transform="rotate(29) scale(.69)"/><use href="#p" transform="rotate(101) scale(.68)"/><use href="#p" transform="rotate(174) scale(.68)"/><use href="#p" transform="rotate(247) scale(.69)"/><use href="#p" transform="rotate(315) scale(.68)"/>
+   <use href="#p" transform="rotate(2) scale(.39)"/><use href="#p" transform="rotate(98) scale(.39)"/><use href="#p" transform="rotate(198) scale(.38)"/><use href="#p" transform="rotate(279) scale(.39)"/>
+   <use href="#p" transform="rotate(53) scale(.18)"/><use href="#p" transform="rotate(197) scale(.18)"/><use href="#p" transform="rotate(306) scale(.12)"/>
+  </g>
+ </defs>
+ <g fill="none" stroke="#9c8a78" stroke-width="4" stroke-linecap="round"><path d="M153 162Q207 238 244 423M350 155Q300 287 257 412M246 130Q270 291 252 430M109 233Q206 274 247 405M393 215Q310 272 249 399"/></g>
+ <g fill="url(#leaf)"><path d="M244 341Q142 311 135 269Q222 270 244 341ZM264 333Q349 298 360 249Q286 274 264 333ZM241 316Q161 259 174 225Q237 260 241 316ZM269 295Q312 216 332 227Q328 276 269 295Z"/></g>
+ <g opacity=".78"><use href="#rose" transform="translate(123 221) rotate(-7) scale(.56)"/><use href="#rose" transform="translate(371 207) rotate(14) scale(.58)"/><use href="#rose" transform="translate(173 135) rotate(19) scale(.69)"/><use href="#rose" transform="translate(313 123) scale(.65)"/></g>
+ <use href="#rose" transform="translate(246 204) rotate(-17) scale(1.03)"/>
+ <path d="M223 346Q253 350 277 339L266 374Q249 384 231 369Z" fill="#d8a0a8"/>
+ <path d="M251 356C169 295 193 386 248 359C324 303 309 384 254 359M250 359Q211 382 202 411M254 359Q281 382 295 403" fill="none" stroke="#f7c3c8" stroke-width="5" stroke-linecap="round"/>
+</svg>
+
